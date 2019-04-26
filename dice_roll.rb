@@ -3,5 +3,5 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  Array.new(6) {rand 1..6}
+  rand (1..10)
 end
